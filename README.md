@@ -12,6 +12,7 @@
 
 ## Python (`python/python_test.py`)
 
+**Setup**
 
 ```bash
 cd python
@@ -20,7 +21,7 @@ source .venv/bin/activate
 pip install numpy matplotlib
 ```
 
-**Run**:
+**Run**
 
 ```bash
 cd python
@@ -35,14 +36,14 @@ After finishing: `deactivate`.
 ## Julia (`julia/julia_test.jl`)
 
 
-**One-time setup**
+**Setup**
 
 ```bash
 cd julia
 julia --project=. -e 'using Pkg; Pkg.add(["DifferentialEquations", "Plots"])'
 ```
 
-**Run**:
+**Run**
 
 ```bash
 cd julia
