@@ -1,18 +1,3 @@
-"""
-Simple Python test: plot sin(x) with numpy + matplotlib.
-
-ONE-TIME SETUP (macOS, run in this directory):
-    python3 -m venv .venv
-    source .venv/bin/activate
-    pip install numpy matplotlib
-
-RUN (each time):
-    source .venv/bin/activate     # if not already active
-    python3 python_test.py
-
-The script writes python_plot.png next to itself and also opens a window.
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 

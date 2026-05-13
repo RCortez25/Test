@@ -1,11 +1,11 @@
 # Python
-.venv/
-__pycache__/
+python/.venv/
+**/__pycache__/
 *.pyc
 
 # Julia
-Manifest.toml
+julia/Manifest.toml
 
 # Generated plots
-python_plot.png
-julia_plot.png
+**/python_plot.png
+**/julia_plot.png

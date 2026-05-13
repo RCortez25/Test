@@ -1,21 +1,6 @@
-# Simple Julia test: solve du/dt = -k*u and compare to the analytical solution.
-#
-# ONE-TIME SETUP (macOS, run in this directory):
-#     julia --project=. -e 'using Pkg; Pkg.add(["DifferentialEquations", "Plots"])'
-#
-# This creates Project.toml / Manifest.toml in the current directory — that is
-# the Julia equivalent of a virtual environment.
-#
-# RUN (each time):
-#     julia --project=. julia_test.jl
-#
-# The script writes julia_plot.png next to itself.
-
 using DifferentialEquations
 using Plots
 
-# ODE: du/dt = -k*u, u(0) = u0
-# Analytical solution: u(t) = u0 * exp(-k*t)
 f(u, p, t) = -p * u
 
 u0 = 1.0
