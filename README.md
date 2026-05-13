@@ -3,9 +3,9 @@
 ```
 .
 ├── python/
-│   └── python_test.py     # plots sin(x) with numpy + matplotlib
+│   └── python_test.py
 └── julia/
-    └── julia_test.jl      # solves du/dt = -k·u with DifferentialEquations.jl
+    └── julia_test.jl
 ```
 
 ---
