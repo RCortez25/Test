@@ -14,6 +14,8 @@
 
 **Setup**
 
+macOS / Linux:
+
 ```bash
 cd python
 python3 -m venv .venv
@@ -21,12 +23,31 @@ source .venv/bin/activate
 pip install numpy matplotlib
 ```
 
+Windows (Git Bash):
+
+```bash
+cd python
+python -m venv .venv
+source .venv/Scripts/activate
+pip install numpy matplotlib
+```
+
 **Run**
+
+macOS / Linux:
 
 ```bash
 cd python
 source .venv/bin/activate
 python3 python_test.py
+```
+
+Windows (Git Bash):
+
+```bash
+cd python
+source .venv/Scripts/activate
+python python_test.py
 ```
 
 After finishing: `deactivate`.
